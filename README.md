@@ -23,7 +23,11 @@ Specific Range (Chrome) (Currently Quite Rudimentary) :
 
 Load messages to where you want to roughly start deleting (precision doesn't matter that much, just make sure the message is loaded)
 
-In console, paste "var m = document.querySelectorAll('.PaBnr.eFVJg'); " and press enter.
+In console, paste 
+
+    var m = document.querySelectorAll('.PaBnr.eFVJg');  
+    
+and press enter.
 
 Type m, and press enter (maybe twice). 
 
