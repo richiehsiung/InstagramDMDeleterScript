@@ -3,13 +3,13 @@ Open Up Conversation of Choice->Right Click->Inspect Element->Console->Paste Scr
 
 Mac:
 
-  Chrome:  Cmd+Option+J
+    Chrome:  Cmd+Option+J
   
-  Firefox: Cmd+Option+k
+    Firefox: Cmd+Option+k
   
 Rest of the world:
 
-  Chrome: Ctrl+Shift+J
+    Chrome: Ctrl+Shift+J
   
-  Firefox: Ctrl+Shift+K
+    Firefox: Ctrl+Shift+K
   
