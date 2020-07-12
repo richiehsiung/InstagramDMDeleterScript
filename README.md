@@ -18,7 +18,7 @@ Rest of the world:
 If you want to unsend all messages in the chat, scroll to the beginning, open console, paste the script, and press enter.
 
 The script deletes ALL LOADED messages at the time the script is run.
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Specific Range (Chrome) (Currently Quite Rudimentary) :
 
 Load messages to where you want to roughly start deleting (precision doesn't matter that much, just make sure the message is loaded)
