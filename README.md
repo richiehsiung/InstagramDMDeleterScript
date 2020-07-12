@@ -64,7 +64,7 @@ in:
 
     for (i=0; i<m.length; i++) {
     
-change i=0 to i=your start message index, and m.length to your end message index. 
+change 0 to your start message index, and m.length to your end message index. 
 
 That's it, press enter and every message in the range you have selected will be deleted.
 
