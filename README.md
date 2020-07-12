@@ -15,7 +15,7 @@ Rest of the world:
   
     Firefox: Ctrl+Shift+K
   
-If you want to unsend all messages in the chat, scroll to the beginning, open console, paste the script, and press enter.
+If you want to unsend all messages in the chat, scroll to the beginning (there are scripts/add-ons to do this), open console, paste the script, and press enter.
 
 The script unsends ALL LOADED messages at the time the script is run.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
