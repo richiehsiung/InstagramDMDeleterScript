@@ -10,9 +10,9 @@ for (i=0; i<m.length; i++) {
 	});
 	m[i].dispatchEvent(event);
 	let d=$('.dCJp8.afkep');
-    d.click();
-    let u=$('._7UhW9.xLCgt.qyrsm.h_zdq.uL8Hv.M8ipN.T0kll');
-    u.click();
-    let c=$('.aOOlW.-Cab_');
-    c.click();
+    	d.click();
+    	let u=$('._7UhW9.xLCgt.qyrsm.h_zdq.uL8Hv.M8ipN.T0kll');
+    	u.click();
+    	let c=$('.aOOlW.-Cab_');
+    	c.click();
 }
