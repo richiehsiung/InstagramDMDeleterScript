@@ -1,6 +1,8 @@
 # InstagramDMUnsender
 Open Up Conversation of Choice->Right Click->Inspect Element->Console->Paste Script->Press Enter
 
+If you refresh the page, make sure you only open console after opening the chat. Always open the chat before Console.
+
 OR:
 
 Mac:
