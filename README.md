@@ -29,3 +29,31 @@ You will see something like this:
 
     NodeList(25) [div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg,  div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg, div.PaBnr.eFVJg]
 
+Click on the Nodelist and you will see a drop down menu:
+
+    length: 25
+    0: div.PaBnr.eFVJg
+    1: div.PaBnr.eFVJg
+    2: div.PaBnr.eFVJg
+    3: div.PaBnr.eFVJg
+    4: div.PaBnr.eFVJg
+    5: div.PaBnr.eFVJg
+    6: div.PaBnr.eFVJg
+    7: div.PaBnr.eFVJg
+    8: div.PaBnr.eFVJg
+    
+and so on...
+
+run your cursor down the list until the message you want to start deleting from gets highlighted, the number to the left of the colon is the index of the message in the Nodelist
+
+run your cursor down the list until the last message you want to delete gets highlighted, the number to the left of the colon is the index of the message in the Nodelist
+
+in:
+
+    for (i=0; i<m.length; i++) {
+    
+change i=0 to i=your start message index, and m.length to your end message index. 
+
+That's it, press enter and every message in the range you have selected will be deleted.
+
+
