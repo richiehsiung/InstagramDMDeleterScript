@@ -15,15 +15,17 @@ Rest of the world:
   
     Firefox: Ctrl+Shift+K
   
-Deletes ALL LOADED Messages in chat, will add instructions for specific range 
+If you want to unsend all messages in the chat, scroll to the beginning, open console, paste the script, and press enter.
 
-Specific Range:
+The script deletes ALL LOADED messages at the time the script is run.
 
-Load messages to where you want deleting to roughly start deleting (precision doesn't matter that much, just make sure the message is loaded)
+Specific Range (Chrome) (Currently Quite Rudimentary) :
+
+Load messages to where you want to roughly start deleting (precision doesn't matter that much, just make sure the message is loaded)
 
 In console, paste "var m = document.querySelectorAll('.PaBnr.eFVJg'); " and press enter.
 
-Type m, and press enter twice. 
+Type m, and press enter (maybe twice). 
 
 You will see something like this:
 
@@ -44,9 +46,15 @@ Click on the Nodelist and you will see a drop down menu:
     
 and so on...
 
-run your cursor down the list until the message you want to start deleting from gets highlighted, the number to the left of the colon is the index of the message in the Nodelist
+Scroll to the first message in the range of messages you want deleted
+
+run your cursor down the list until the message you want to start deleting from gets highlighted (you will see a box come up with "div.PaBnr.eFVJg" inside pointing outside your current window of view if your cursor is on a message outside of your scope of view), the number to the left of the colon is the index of the message in the Nodelist
+
+Scroll to the last message in the range of messages you want deleted
 
 run your cursor down the list until the last message you want to delete gets highlighted, the number to the left of the colon is the index of the message in the Nodelist
+
+alternatively, start at a random position on the Nodelist, and click it. This will bring you to the Elements page, with the div of the particular message you clicked on highlighted. Right click and click "scroll into view" to see the message in chat. If the highlighted message is your desired starting or ending message, the random Node you clicked is the Node you want to start with, or end with, and the number to the left of the colon is the index of the message in the Nodelist. Trial and Error until you find the desired starting and ending indices.
 
 in:
 
