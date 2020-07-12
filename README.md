@@ -21,7 +21,7 @@ The script deletes ALL LOADED messages at the time the script is run.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Specific Range (Chrome) (Currently Quite Rudimentary) :
 
-Load messages to where you want to roughly start deleting (precision doesn't matter that much, just make sure the message is loaded)
+Load messages to where you want to roughly start deleting from (precision doesn't matter that much, just make sure the message is loaded)
 
 In console, paste 
 
@@ -52,7 +52,7 @@ and so on...
 
 Scroll to the first message in the range of messages you want deleted
 
-run your cursor down the list until the message you want to start deleting from gets highlighted (you will see a box come up with "div.PaBnr.eFVJg" inside pointing outside your current window of view if your cursor is on a message outside of your scope of view), the number to the left of the colon is the index of the message in the Nodelist
+run your cursor down the list until the message you want to start deleting from gets highlighted (you will see a box come up with "div.PaBnr.eFVJg" inside pointing outside your current window of view if your cursor is on a message outside of your scope of view), the number to the left of the colon is the index of the respective message in the Nodelist
 
 Scroll to the last message in the range of messages you want deleted
 
