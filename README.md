@@ -15,3 +15,4 @@ Rest of the world:
   
     Firefox: Ctrl+Shift+K
   
+Deletes ALL Messages in Chat, will add instructions for specific range 
