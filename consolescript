@@ -1,5 +1,4 @@
-var message = document.querySelectorAll('.PaBnr.eFVJg');   
-var unsend=document.querySelectorAll('.sqdOP.yWX7d.y3zKF');
+var message = document.querySelectorAll('.PaBnr.eFVJg');  
 for (i=0; i<message.length; i++) {
 	message[i].addEventListener('mouseover', function() {
  	console.log('Event triggered');
