@@ -1,6 +1,8 @@
 # InstagramDMDeleterScript
 Open Up Conversation of Choice->Right Click->Inspect Element->Console->Paste Script->Press Enter
 
+OR:
+
 Mac:
 
     Chrome:  Cmd+Option+J
