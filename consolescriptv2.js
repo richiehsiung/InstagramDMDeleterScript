@@ -1,8 +1,9 @@
 var m = document.querySelectorAll('.PaBnr.eFVJg');
 i=0;
 setInterval (function() {
-    if (i>=m.length) 
+    if (i>=m.length) {
         clearInterval();
+    }
     setTimeout(function() {
     var event = new MouseEvent('mouseover', {
     'view': window,
@@ -12,6 +13,7 @@ setInterval (function() {
     m[i].dispatchEvent(event);
     m[i].addEventListener('mouseover', function() {
     console.log('triggered');
+    console.log(i);
     });
     }, 750)
     setTimeout (function() {
