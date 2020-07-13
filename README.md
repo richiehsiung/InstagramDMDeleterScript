@@ -19,7 +19,7 @@ Rest of the world:
   
 If you want to unsend all messages in the chat, scroll to the beginning (there are scripts/add-ons to do this), open console, paste the script, and press enter.
 
-The script unsends ALL LOADED messages at the time the script is run.
+The script unsends ALL LOADED messages at the time the script is run. - (Approximately 87+-10 Messages before 429 error occurs, and you will have to wait a bit before continuing)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Specific Range (Chrome) (Currently Quite Rudimentary) :
 
