@@ -1,17 +1,16 @@
-var l = document.querySelectorAll('.PaBnr.eFVJg');
-count=0;
+var m = document.querySelectorAll('.PaBnr.eFVJg');
+i=0;
 setInterval (function() {
-    if (count>=l.length) 
+    if (i>=m.length) 
         clearInterval();
     setTimeout(function() {
-    var m = document.querySelector('.PaBnr.eFVJg'); 
     var event = new MouseEvent('mouseover', {
     'view': window,
     'bubbles': true,
     'cancelable': true
     });
-    m.dispatchEvent(event);
-    m.addEventListener('mouseover', function() {
+    m[i].dispatchEvent(event);
+    m[i].addEventListener('mouseover', function() {
     console.log('triggered');
     });
     }, 750)
@@ -30,5 +29,5 @@ setInterval (function() {
     c.click();
     console.log('confirmed');
     }, 3000)
-    count++;
+    i++;
 }, 3000);
