@@ -19,7 +19,9 @@ Rest of the world:
   
 If you want to unsend all messages in the chat, scroll to the beginning (there are scripts/add-ons to do this), open console, paste the script, and press enter.
 
-Script V1 unsends ALL LOADED messages virtually instantly at the time the script is run. - in reality, approximately 87+-10 Messages before 429 error occurs (you will have to wait a bit before continuing)
+Script V1 unsends ALL LOADED messages instantly at the time the script is run by default, unless you change the bounds. In reality, this is approximately 87+-10 Messages before a 429 error occurs (you will have to wait a bit before continuing). Use V1 if you want to delete small amounts (<80 to be safe) of messages quick.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+V2 unsends ALL LOADED messages, unless you change the bounds, with a 3.2 second gap between the unsending of each message (to avoid 429 error)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Specific Range (Chrome) (Currently Quite Rudimentary) :
 
