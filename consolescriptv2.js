@@ -1,5 +1,5 @@
 var m = document.querySelectorAll('.PaBnr.eFVJg');
-i=0;
+var i=0;
 setInterval (function() {
     if (i>=m.length) {
         clearInterval();
