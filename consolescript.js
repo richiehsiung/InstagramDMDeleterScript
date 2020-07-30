@@ -9,7 +9,7 @@ for (i=0; i<m.length; i++) {
   	'cancelable': true
 	});
 	m[i].dispatchEvent(event);
-	let d=$('.dCJp8.afkep');
+	let d=$('.QBdPU.rrUvL');
     	d.click();
     	let u=$('._7UhW9.xLCgt.qyrsm.h_zdq.uL8Hv.M8ipN.T0kll');
     	u.click();
